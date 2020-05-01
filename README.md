@@ -1,36 +1,5 @@
 # Monodepth2
 
-This is the reference PyTorch implementation for training and testing depth estimation models using the method described in
-
-> **Digging into Self-Supervised Monocular Depth Prediction**
->
-> [Clément Godard](http://www0.cs.ucl.ac.uk/staff/C.Godard/), [Oisin Mac Aodha](http://vision.caltech.edu/~macaodha/), [Michael Firman](http://www.michaelfirman.co.uk) and [Gabriel J. Brostow](http://www0.cs.ucl.ac.uk/staff/g.brostow/)  
->
-> [ICCV 2019](https://arxiv.org/abs/1806.01260)
-
-<p align="center">
-  <img src="assets/teaser.gif" alt="example input output gif" width="600" />
-</p>
-
-This code is for non-commercial use; please see the [license file](LICENSE) for terms.
-
-If you find our work useful in your research please consider citing our paper:
-
-```
-@article{monodepth2,
-  title     = {Digging into Self-Supervised Monocular Depth Prediction},
-  author    = {Cl{\'{e}}ment Godard and
-               Oisin {Mac Aodha} and
-               Michael Firman and
-               Gabriel J. Brostow},
-  booktitle = {The International Conference on Computer Vision (ICCV)},
-  month = {October},
-year = {2019}
-}
-```
-
-
-
 ## ⚙️ Setup
 
 Assuming a fresh [Anaconda](https://www.anaconda.com/download/) distribution, you can install the dependencies with:
@@ -242,10 +211,3 @@ You can download our precomputed disparity predictions from the following links:
 | Mono              | 1024 x 320  | 914 MB          | [Download 🔗](https://storage.googleapis.com/niantic-lon-static/research/monodepth2/mono_1024x320_eigen.npy)          |
 | Stereo            | 1024 x 320  | 914 MB          | [Download 🔗](https://storage.googleapis.com/niantic-lon-static/research/monodepth2/stereo_1024x320_eigen.npy)        |
 | Mono + Stereo     | 1024 x 320  | 914 MB          | [Download 🔗](https://storage.googleapis.com/niantic-lon-static/research/monodepth2/mono%2Bstereo_1024x320_eigen.npy) |
-
-
-
-## 👩‍⚖️ License
-Copyright © Niantic, Inc. 2019. Patent Pending.
-All rights reserved.
-Please see the [license file](LICENSE) for terms.
